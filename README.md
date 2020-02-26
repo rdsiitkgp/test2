@@ -12,7 +12,7 @@ $ java -jar target/Assignment-1.0-SNAPSHOT.war
 ```
 ##### Endpoint
 ```
-$ wget http://localhost:8080/storage/documents/74b985ad6da241a9bbd0
+$ curl --location --request POST 'http://localhost:8080/storage/documents/' --data-raw 'hello world'
 ```
 
 ### Deploying war file in Tomcat
@@ -28,5 +28,5 @@ $ /Library/Tomcat/bin/startup.sh
 ```
 ##### Endpoint
 ```
-$ wget http://localhost:8080/Assignment-1.0-SNAPSHOT/storage/documents/74b985ad6da241a9bbd0
+$ curl --location --request POST 'http://localhost:8080/Assignment-1.0-SNAPSHOT/storage/documents/' --data-raw 'hello world'
 ```
