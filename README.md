@@ -28,5 +28,5 @@ $ /Library/Tomcat/bin/startup.sh
 ```
 ##### Endpoint
 ```
-$ http://localhost:8080/Assignment-1.0-SNAPSHOT/storage/documents/74b985ad6da241a9bbd0
+$ wget http://localhost:8080/Assignment-1.0-SNAPSHOT/storage/documents/74b985ad6da241a9bbd0
 ```
