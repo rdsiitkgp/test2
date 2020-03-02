@@ -1,4 +1,4 @@
-# Document Storage REST Web Service
+# RUNBOOK - Document Storage REST Web Service
 
 ### Running as Spring-Boot Standalone Application 
 ##### Build
